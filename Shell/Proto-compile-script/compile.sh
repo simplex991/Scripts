@@ -5,7 +5,7 @@
 # Change file path to the file path to protoc.exe
 # Example: C:/protoc/bin/protoc
 # You need to be in the research file (models/reserch)
-path="PROTOC_FILE_PATH";
+path="PROTO_FILE_PATH";
 
 echo "$path object_detection/protos/anchor_generator.proto --python_out=.";
 echo "$path object_detection/protos/argmax_matcher.proto --python_out=.";
